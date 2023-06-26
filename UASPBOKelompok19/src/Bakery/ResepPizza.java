@@ -4,8 +4,6 @@
  */
 package Bakery;
 
-import Bahan.HargaPerGram;
-
 /**
  *
  * @author Asus
