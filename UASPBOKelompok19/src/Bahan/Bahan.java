@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package uaspbokelompok19;
+package Bahan;
 
 /**
  *
  * @author Asus
  */
-public class UASPBOKelompok19 {
+public class Bahan {
 
     /**
      * @param args the command line arguments
