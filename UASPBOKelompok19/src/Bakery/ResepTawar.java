@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Bakery;
-import Bahan.HargaPerGram;
 /**
  *
  * @author acer
@@ -25,7 +24,6 @@ public class ResepTawar {
     public double tawarPerBatch(){
         return this.TotalBerat / this.BeratAdonan;
     }
-    
     //Method Adonan
     public double adonanTepungTerigu() {
         return this.TepungTerigu / this.BeratPcs;
