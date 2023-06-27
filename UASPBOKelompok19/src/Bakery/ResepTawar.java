@@ -3,6 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Bakery;
+
+import Bahan.HargaPerGram;
+
 /**
  *
  * @author acer
@@ -19,11 +22,12 @@ public class ResepTawar {
     public double BeratPcs = 400;
     public double TotalBerat = 2065;
     public double BeratAdonan = 400;
-
-     //Method Roti Per Batch
+    
+    //Method Roti Per Batch
     public double tawarPerBatch(){
         return this.TotalBerat / this.BeratAdonan;
     }
+
     //Method Adonan
     public double adonanTepungTerigu() {
         return this.TepungTerigu / this.BeratPcs;
@@ -49,4 +53,8 @@ public class ResepTawar {
     public double adonanEsBatu() {
         return this.EsBatu / this.BeratPcs;
     } 
+    public double modalAdonan(){
+        return (this.adonanTepungTerigu()*HargaPerGram.gramTepungTerigu() + this.adonanGulaPasir()*HargaPerGram.gramGulaPasir() + this.adonanButter()*HargaPerGram.gramRagi() + this.adonanRagi()*HargaPerGram.gramRagi() + this.adonanSusuBubuk()*HargaPerGram.gramSusuBubuk() + this.adonanSusuCair()*HargaPerGram.gramSusuCair() + this.adonanTelur()*HargaPerGram.gramTelur() + this.adonanEsBatu()*HargaPerGram.gramEsBatu());
+      
+    }
 }

@@ -4,7 +4,6 @@
  */
 package Bakery;
 import Bahan.HargaPerGram;
-
 /**
  *
  * @author acer
@@ -24,5 +23,3 @@ public class TawarVar1 extends ModalTawar {
     }
     
 }
-
-

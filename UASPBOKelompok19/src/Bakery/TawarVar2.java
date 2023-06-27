@@ -10,7 +10,7 @@ import Bahan.HargaPerGram;
  *
  * @author acer
  */
-public class TawarVar2 extends ModalTawar{
+public class TawarVar2 extends ModalTawar {
     //Attribut
     public double keju = 80;
     
@@ -24,5 +24,4 @@ public class TawarVar2 extends ModalTawar{
     public double hargaTawarVar2(){
         return this.modalTawarVar2() * 140/100;
     }
-}   
-
+}

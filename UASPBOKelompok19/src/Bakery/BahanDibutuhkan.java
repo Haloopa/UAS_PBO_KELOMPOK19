@@ -9,17 +9,17 @@ package Bakery;
  * @author bangu
  */
 public class BahanDibutuhkan {
-    private UASPBO order = new UASPBO();
-    private ResepManis bahanManis = new ResepManis();
-    private ResepTawar bahanTawar = new ResepTawar();
-    private ResepPizza bahanPizza = new ResepPizza();
-    private ManisVar1 bahanManisVar1 = new ManisVar1();
-    private ManisVar2 bahanManisVar2 = new ManisVar2();
-    private ManisVar3 bahanManisVar3 = new ManisVar3();
-    private TawarVar1 bahanTawarVar1 = new TawarVar1();
-    private TawarVar2 bahanTawarVar2 = new TawarVar2();
-    private PizzaVar1 bahanPizzaVar1 = new PizzaVar1();
-    
+    private final UASPBO order = new UASPBO();
+    private final ResepManis bahanManis = new ResepManis();
+    private final ResepTawar bahanTawar = new ResepTawar();
+    private final ResepPizza bahanPizza = new ResepPizza();
+    private final ManisVar1 bahanManisVar1 = new ManisVar1();
+    private final ManisVar2 bahanManisVar2 = new ManisVar2();
+    private final ManisVar3 bahanManisVar3 = new ManisVar3();
+    private final TawarVar1 bahanTawarVar1 = new TawarVar1();
+    private final TawarVar2 bahanTawarVar2 = new TawarVar2();
+    private final PizzaVar1 bahanPizzaVar1 = new PizzaVar1();
+
     // method Menghitung Total Batch Pesanan Setiap Roti
     public double totalBatchManis(){
         return (order.orderManisVar11() + order.orderManisVar12() + order.orderManisVar13()) / bahanManis.manisPerBatch();
